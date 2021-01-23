@@ -1,0 +1,13 @@
+touch .git ignore
+git config --global user.name "Ruby Coding"
+git config --global user.email "ruby.k.jaiswal@gmail.com"
+
+git init
+git add .
+git commit -m "Initial Commit"
+git status # no need
+
+tail <rsa key>
+
+git remote add origin <ssh url.git>
+pit push origin master
